@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  /*
+  border: 1px solid red !important;
+  */
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: #143463;
+}
+
+.Image-1 {
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.History-1 {
+  display: flex;
+  justify-content: right;
+  align-items: left;
+}
+
+.History-2 {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+.lead {
+  font-size: 1.3rem;
+  line-height: auto;
+  width: 400px;
+  font-family: "Inter", sans-serif;
+}
+
+.trans {
+  font-size: 4.3rem;
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+}
+
+.Passion {
+  font-size: 4rem;
+  font-family: "Inter", sans-serif;
+}
